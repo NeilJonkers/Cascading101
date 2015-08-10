@@ -29,8 +29,6 @@ public class Main  {
     String outPath = args[ 1 ];
 
 
-    //String inPath = "s3://support.elasticmapreduce/training/sampledata/fanniemaeiperformancedataset/data/";
-    //String inPath = "/input/24may/";
 
     Properties properties = new Properties();
     properties.setProperty("mapred.max.map.failures.percent","5" );
